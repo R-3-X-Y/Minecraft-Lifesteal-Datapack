@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shaped",
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    },
+    "pattern": [
+        "DND",
+        "GTG",
+        "DCD"
+    ],
+    "key": {
+        "D" : {
+            "item": "minecraft:diamond_block"
+        },
+        "N" : {
+            "item": "minecraft:netherite_scrap"
+        },
+        "G" : {
+            "item": "minecraft:gold_block"
+        },
+        "T" : {
+            "item": "minecraft:totem_of_undying"
+        },
+        "C" : {
+            "item": "minecraft:sculk_catalyst"
+        }
+    }
+}
