@@ -8,7 +8,7 @@ execute as @a run scoreboard players operation @s playerMaxHealth *= #2 numbers
 gamemode spectator @a[scores = {playerMaxHealth = ..0}]
 tp @a[scores = {playerMaxHealth = ..0}, gamemode = spectator] 0 100 0
 effect give @a[scores = {playerMaxHealth = ..0}, gamemode = spectator] resistance 10 255 true
-gamemode survival @a[scores = {playerMaxHealth = 0..}, gamemode = spectator]
+gamemode survival @a[scores = {playerMaxHealth = 1..}, gamemode = spectator]
 execute as @a if score @s playerMaxHealth >= #1 numbers run attribute @s minecraft:generic.max_health base set 1
 execute as @a if score @s playerMaxHealth >= #2 numbers run attribute @s minecraft:generic.max_health base set 2
 execute as @a if score @s playerMaxHealth >= #3 numbers run attribute @s minecraft:generic.max_health base set 3
