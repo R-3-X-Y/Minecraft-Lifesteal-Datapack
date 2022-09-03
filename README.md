@@ -10,9 +10,9 @@ When a player reaches 0 hearts, they will be put in spectator mode and locked at
 In order to revive a player, you will need to run the command '/scoreboard players add <USERNAME> playerExtraHearts 1' until they enter survival mode.
 Extra hearts can be crafted with 4 diamond blocks, 2 gold blocks, 1 netherite scrap, 1 totem of undying, and 1 sculk catalyst.
 The recipes is
-  DND
-  GTG
-  DCD
+Row 1: DND
+Row 2: GTG
+Row 3: DCD
 Where:
   D = diamond block
   N = netherite scrap
